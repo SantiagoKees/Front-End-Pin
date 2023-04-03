@@ -1,0 +1,171 @@
+.pin__whatpin {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgb(44, 120, 201) 100%);
+
+   
+    background:-webkit-radial-gradient(circle at 30% -100%, #0b3055 25%, rgb(12, 51, 90) 85%, rgb(44, 122, 204) 100%);
+
+    
+    background:-o-radial-gradient(circle at 30% -100%, #0a2d50 25%, rgb(10, 54, 97) 85%, rgb(46, 127, 214) 100%);
+
+    
+    background:-ms-radial-gradient(circle at 30% -100%, #164c81 25%, rgba(4, 44, 84, 1) 85%, rgb(41, 127, 219) 100%);
+
+    
+    background:radial-gradient(circle at 30% -100%, #0c335a 25%, rgb(11, 44, 77) 85%, rgb(44, 116, 194) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(231, 225, 225, 0.25));
+}
+
+.pin__whatpin-feature {
+    display: flex;
+    
+}
+
+.pin__whatpin-feature .pin__features-container__feature {
+    margin: 0;
+}
+
+
+.pin__whatpin-feature .pin__features-container_feature-text {
+    max-width: 500px;
+   
+    
+}
+
+.pin__whatpin-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    
+    
+    
+    
+    margin: 4rem 0 1rem;
+}
+
+.pin__whatpin-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    max-width: 610px;
+    
+    
+}
+
+.pin__whatpin-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.pin__whatpin-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -550px;
+
+    margin-top: 6rem;
+    padding: -50px;
+}
+
+
+.pin__whatpin-container .pin__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 30px;
+    display: unset;
+    flex-direction: column;
+    margin-left: 490px;
+    padding: 0%;
+    margin-top: -150px;
+    
+}
+
+
+.pin__whatpin-container .pin__features-container_feature-text {
+    margin-top: 0.6rem;
+    
+  
+}
+
+@media screen and (max-width: 850px) {
+    .pin__whatpin-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .pin__whatpin-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .pin__whatpin-feature .pin__features-container__feature {
+        flex-direction:column;
+        
+    }
+
+   
+    .pin__whatpin-feature .pin__features-container_feature-text {
+        margin-top: 0.3rem;
+        margin-left:0px;
+        color: rgb(34, 121, 197);
+        
+    }
+
+    .pin__whatpin-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+        
+        
+        
+    }
+}
+
+
+
+.pin__features-container__feature-title{
+    margin-top: 10px;
+    padding: -5px;
+    
+}
+
+
+@media screen and (max-width: 350px) {
+    
+    .pin__whatpin-container .pin__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+        
+        
+        
+    }
+}
+.pin__features-container_features-text{
+    margin-top: 110px;
+    font-size: larger;
+    color: darkkhaki;
+    margin-left: 50px;
+    height: 30px;
+    padding: 0px;
+
+}
+
+
+
+

@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background: var(--color-bg)
+    
+  
+
+}
+
+a {
+    color:unset;
+    text-decoration: none;
+}
+
+
+.gradient__bg{
+
+
+    
+    background:-moz-radial-gradient(circle at 50% 50%, rgb(84, 105, 101) 0%, rgb(52, 99, 216) 100%);
+
+    
+    background:-webkit-radial-gradient(circle at 50% 50%, rgb(78, 100, 98) 0%, rgb(51, 96, 209) 100%);
+
+    
+    background:-o-radial-gradient(circle at 50% 50%, rgb(77, 95, 93) 0%, rgb(46, 91, 204) 100%);
+
+   
+    background:-ms-radial-gradient(circle at 50% 50%, rgb(68, 85, 82) 0%, rgb(50, 95, 209) 100%);
+
+  
+    background:radial-gradient(circle at 50% 50%, rgb(78, 85, 85) 0%, rgb(40, 87, 206) 100%);
+    background-image:url(/src/assets/ventas15.png);
+    background-position: 0% ;
+    background-position: left;
+    background-repeat: space;
+
+}
+
+
+
+
+            
+.gradient__text {
+   background-color: rgb(68, 204, 204);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+
+
+.section__padding{
+    padding:1rem 3rem;
+    
+}
+.section__margin{
+    margin:4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+  }
+
+  .section__margin {
+    margin: 4rem;
+}
+
+
+  
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+}
+  

@@ -1,0 +1,82 @@
+  h1{
+    font-family: var(--font-family);
+    color: rgb(40, 136, 136);
+    align-content: center;
+    padding: 40px;
+    margin-left: 200px;
+    margin-top: 117px;
+   
+
+    
+    
+  }
+  
+
+  .pin__form-h{
+    color: rgb(22, 24, 24);
+    padding: 40px;
+    margin-left: 300px;
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+    
+  }
+
+  .pin__form-dos{
+    color: rgb(14, 15, 15);
+    padding: 40px;
+    margin-left: 300px;
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+
+  }
+
+  .pin__form-tres{
+    color: rgb(29, 31, 31);
+    padding: 40px;
+    margin-left: 300px;
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+   
+  }
+
+
+  .pin__form-cuatro{
+    color: rgb(18, 19, 19);
+    padding: 40px;
+    margin-left: 300px;
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+  }
+
+
+  .pin-form-h{
+    color: rgb(40, 44, 44);
+    padding: 40px;
+    margin-left: 900px;
+    margin-top: -200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+    
+  }
+  .buttom {
+    padding: 40px;
+    margin-left: 365px;
+    font-family: inherit;
+    font-size: 100px;
+    margin-top: 200px;
+  }
+
+  .pin__form-img{
+    margin-top: -20px;
+    margin-left: 140px;
+ 
+    width: 400px;
+    
+  
+    
+  
+  }
