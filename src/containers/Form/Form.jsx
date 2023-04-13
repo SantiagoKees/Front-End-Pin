@@ -23,7 +23,7 @@ const Form = () => {
 
     const onSubmit = (data) => {
         console.log(data);}
-        axios.post('-hcontainers-us-west-166.railway.app')
+        axios.post('api-production-e6e6.up.railway.app')
         
     
 
