@@ -6,6 +6,12 @@ padding: 0.49rem 39rem;
 
 
 
+
+}
+@media screen and (max-width:700px){
+    .pin__navbar{
+        display: inline-block;
+    }
 }
 
 .pin__navbar-links {
@@ -13,6 +19,7 @@ padding: 0.49rem 39rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: -100px;
     
 }
 
@@ -72,7 +79,7 @@ padding: 0.49rem 39rem;
 
 @media screen and (max-width: 1050px) {
     .pin__navbar-links_container {
-        display:none ;
+        display:inline-block ;
     }
 }
     
@@ -117,3 +124,4 @@ padding: 0.49rem 39rem;
   
     
 }
+

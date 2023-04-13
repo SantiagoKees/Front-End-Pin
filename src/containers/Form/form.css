@@ -66,8 +66,11 @@
     padding: 40px;
     margin-left: 365px;
     font-family: inherit;
-    font-size: 100px;
+    font-size: 120px;
     margin-top: 200px;
+    
+    
+       
   }
 
   .pin__form-img{
@@ -80,3 +83,4 @@
     
   
   }
+  

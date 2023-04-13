@@ -2,7 +2,10 @@ import React from 'react';
 import Feature from '../../components/feature/Feature';
 
 import './feature.css';
-import ventas from '../../assets/ventas.png';
+
+
+
+//informacion, ventas y causas
 
 const featuresData = [
   {
@@ -32,11 +35,71 @@ const Features = () => {
   return (
     <div className="pin__feature section__padding" id= "ventas">
      <div className="pin__feature-heading">
-      <h1 className="gradient__text">Ventas de maiz y soja y proyecciones para campañas 2022/2023</h1>
-    
+      <h1 className="gradient__text">Datos a tener en cuenta + Compra y venta + Problemas</h1>
       
-      <img src={ventas} alt="campo"/>
-      <p>Algunos problemas y recursos para tener en cuenta a lo largo del trayecto</p>
+      
+      <div className="slider-pin-img" id="ventas/causas"> 
+      
+      <section>
+
+<details>
+   <summary>PRODUCTOS PARA VENDER</summary>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt corporis quam labore saepe
+      vitae dolores quis ab cumque aut voluptates nemo eius suscipit odio, iusto, omnis animi architecto
+      cupiditate?</p>
+</details>
+
+<details>
+   <summary>CLIMA IMPORTANTE</summary>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt corporis quam labore saepe
+      vitae dolores quis ab cumque aut voluptates nemo eius suscipit odio, iusto, omnis animi architecto
+      cupiditate?</p>
+</details>
+
+<details>
+   <summary>LIQUIDOS</summary>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt corporis quam labore saepe
+      vitae dolores quis ab cumque aut voluptates nemo eius suscipit odio, iusto, omnis animi architecto
+      cupiditate?</p>
+</details>
+
+</section>
+        
+         
+          
+        
+          
+          
+        
+     
+
+      
+        
+        </div>
+
+        
+      
+        
+          
+          
+          
+        
+        
+
+            
+       
+      
+            
+
+           
+           
+          
+      
+      
+      
+      
+      
+      <h2>Mas información especifica: </h2>
       <div className="pin__feature-container">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
@@ -49,4 +112,8 @@ const Features = () => {
   )
 }
 
+
+  
+
 export default Features;
+

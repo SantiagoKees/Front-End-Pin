@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {RiMenu3Line,  RiCloseLine} from 'react-icons/ri';
+//importamos iconos para agregar a la pagina colocandolo en la parte superior
 
 import './navbar.css';
 

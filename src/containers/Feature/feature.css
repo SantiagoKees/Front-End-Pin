@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+  
 }
 
 .pin__feature-heading {
@@ -20,7 +21,8 @@
 .pin__feature-container_feature-text{
     font-size: larger;
     
-    background-color: rgb(67, 131, 131);
+    background-color: rgb(74, 156, 156);
+    
     width: 3;
     margin: auto;
     box-sizing: border-box;
@@ -34,18 +36,20 @@
     margin-right: 43px;
     
     
+    
 }
 .pin__feature-heading p {
     font-family: var(--font-family);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 29px;
+    font-size: 23px;
     line-height: 30px;
-    color: rgb(234, 234, 241);
+    color: rgb(220, 220, 228);
     padding: 19px;
     margin-left: -30px;
-    margin-top: 130px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .pin__feature-heading h1{
@@ -59,18 +63,20 @@
     
 }
 .pin__features-container_features-text{
-    color: rgb(33, 204, 204);
-    margin-top: 80px;
-    margin-left: -145px;
+    color: #d4e090;
+    margin-top: 130px;
+    margin-left: 70px;
     height: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
-.pin__feature-heading h1{
-    margin-top: 90px;
-    margin-left: -10px;
-    
+
+.pin__feature-heading h3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  color: rgb(150, 140, 127);
+  font-size: -5px;
+  
 }
 
 .pin__feature{
@@ -96,6 +102,9 @@
 
     filter: drop-shadow(0px 4px 4px rgba(231, 225, 225, 0.25));
   margin-top: -50px;
+  
+  
+    
 
     
 
@@ -103,6 +112,62 @@
    
 }
 
+.item{
+    height: 40rem;
+    min-width: 30rem;
+    padding: 2rem;
+}
+.slider-pin-img{
+    background: transparent url(/src/assets/ventas12.png) 0% 0% no-repeat padding-box;
+    top: 1308px;
+    left: 596px;
+    width: 770px;
+    height: 668px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 00px;
+    
+    opacity: 1;
+}
+
+
+
+section{
+    width: 700px;
+    padding: 40px;
+    background: rgb(94, 81, 81);
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ summary{
+    background: rgb(0, 110, 255);
+    color: rgb(238, 216, 216);
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 30px;
+ }
+ p{
+    padding: 10px;
+   
+    color: rgb(218, 35, 35);
+    top: 20px;
+    
+}
+    
+ 
+
+@media screen and (max-width: 680px) {
+.pin__features-container__feature{
+    display: inline-block;
+
+} 
+}
 
     
 

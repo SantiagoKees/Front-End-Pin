@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
-import ventas from '../../assets/logo5.png';
+import ventas from '../../assets/HJKIUH.png';
+//parte principal de la pagina donde puse imagenes, informacion y logo
 
 
 
@@ -12,7 +13,7 @@ const Header = () => (
    
     <div className="pin__header-content">
       <h1 className="gradient__text">Somos un grupo de desarrolladores<br></br> que hemos hecho un proyecto React</h1>
-      <h2>Si quieres mas informacion acerca de nosotros y nuestro proyecto <br></br> entonces desliza para abajo para encontrar todo lo que buscas</h2>
+      <h2>Si quieres mas información acerca de nosotros y nuestro proyecto <br></br> entonces desliza hacia abajo para encontrar todo lo que buscas</h2>
       
       
       

@@ -1,91 +1,78 @@
-body {
-    background-color: rgb(202, 193, 193);
-    
-    
-}
-
-#pin-slider {
-    font-family: sans-serif;
-    margin: auto;
-    background-color: rgb(107, 145, 114);
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-    margin-top: 110px;
-}
-
-#pin-slider>ul,
-li {
-    padding: -10px;
+.slider-pin {
     margin: 0;
-    list-style: none;
-}
+    padding: 0px;
+    font-family: lato;
+    
 
-#pin-slider>ul.slider {
-    position: relative;
-    max-width: 800px;
-    width: 100%;
-    height: 300px;
-}
-
-#pin-slider>ul.slider h1 {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 10px;
-    left: 50%;
-    top: 100px;
-    transform: translate(-50%, -50%);
-}
-
-#pin-slider>ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background: #f5e7e7;
-}
-
-#pin-slider>ul.slider li img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-#pin-slider>ul.slider li:first-child {
-    opacity: 1;
+    
     
 }
 
-#pin-slider>ul.slider li:target {
-   opacity: 1;
-    
-}
-
-#pin-slider>.menu {
+h2 {
     text-align: center;
-    margin: 10px;
-}
-
-#pin-slider>.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-#pin-slider>.menu li a {
-    display: inline-block;
-    color: rgb(17, 16, 16);
-    text-decoration: dotted;
-    background-color: rgb(29, 27, 27);
-    padding: 1px;
-    width: 50px;
-    height: 1px;
-   font-size:26px;
-    border-radius: 100%;
+    font-size: 2.5rem;
+    padding-top: -20px;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -10px;
+    
     
 }
 
+.slider-pin {
+	width: 720px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+    margin-left: 260px;
+    
+   
+}
 
+.slider-pin ul {
+	display: flex;
+	padding: -15%;
+	width: 400%;
+    
+    
+    
+    
+	
+	animation: slide 7s infinite alternate ease-in-out;
+}
+
+.slider-pin li {
+	width: 100%;
+	list-style: none;
+    
+}
+    
+   
+
+.slider-pin img {
+	width: 100%;
+    margin-left: 50px;
+    padding: -100px;
+    
+   
+}
+
+@keyframes slide {
+	0% {margin-left: -10%;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -150%;}
+	45% {margin-left: -150%;}
+	
+	50% {margin-left: -300%;}
+	70% {margin-left: -300%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+    
+    
+}
+
+.pin_slider-h1{
+    margin-top: 130px;
+}

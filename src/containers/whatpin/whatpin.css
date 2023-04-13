@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 950px) {
     
     .pin__whatpin-feature .pin__features-container__feature {
         flex-direction:column;
@@ -146,7 +146,7 @@
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 410px) {
     
     .pin__whatpin-container .pin__features-container__feature {
         margin: 1rem 0;
@@ -157,15 +157,23 @@
     }
 }
 .pin__features-container_features-text{
-    margin-top: 110px;
+    margin-top: 80px;
     font-size: larger;
     color: darkkhaki;
-    margin-left: 50px;
+    margin-left: 30px;
     height: 30px;
     padding: 0px;
 
 }
+.pin__features-container__feature-title h1{
+    color: #90b6dd;
+    margin-top: 28px;
+}
 
 
-
+@media screen and (max-width: 910px) {
+    .pin__whatpin-container{
+        display: inline-block;
+    }
+    }
 

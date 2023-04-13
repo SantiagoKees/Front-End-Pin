@@ -2,7 +2,7 @@ import React from 'react'
 import { Features, Feature, Whatpin, Form, Header} from './containers';
 import { Navbar, Brand, } from './components';
 import './App.css';
-
+//componentes y contenedores que importamos(tuve mezcla al principio)
 
 
 

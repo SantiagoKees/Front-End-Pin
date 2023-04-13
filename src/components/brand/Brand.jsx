@@ -1,50 +1,41 @@
+
 import React from 'react';
 import './brand.css';
-import ventas from '../../assets/ventas4.png';
-import ventas12 from '../../assets/ventas12.png';
-import ventas13 from '../../assets/ventas13.png';
 
 
 
-const Brand = () => (
-    <div className="pin__brand-section__padding" id="maquinas">
+import ventas4 from '../../assets/ventas4.png';
+
+
+
+
+const Brand = () => {
+  return (
     
-    <body>
-  
-  <div id="pin-slider">
-  
-      <ul class="slider">
-          <li id="slide1">
-              <h1>Maquinas agricolas</h1>
-              <img src={ventas} alt="ventas" />
-          </li>
-          <li id="slide2">
-              <img src={ventas12} alt="ventas" />
-          </li>
-          <li id="slide3">
-              <img src={ventas13} alt="ventas"/>
-              
-          </li>
-      </ul>
-  
-      <ul class="menu">
-          <li>
-              <a href="#slide1">1</a>
-          </li>
-          <li>
-              <a href="#slide2">2</a>
-          </li>
-          <li>
-              <a href="#slide3">3</a>
-          </li>
-      </ul>
-  
-  </div>
-  
-  
-  
-  </body>
-  </div>
+    <div className="pin_slider-h1">
+    
+    
+       
+
+        <div className="slider-pin" id="maquinas"> 
+        <h2>MaquinasAgricolas</h2>
+            <ul>
+           <li><img src={ventas4} alt="campo"/></li> 
+      <li><img src={ventas4} alt="campo"/></li>
+     <li><img src={ventas4} alt="campo"/></li> 
+      
+           </ul> 
+
+           
+           
+           </div>
+            
+        </div>
+    
+      
+    
   )
-  
-  export default Brand;
+}
+
+export default Brand
+

@@ -2,12 +2,19 @@ import { useForm } from "react-hook-form";
 import './form.css';
 import ventas from '../../assets/ventas11.png';
 
+import axios from 'axios'
+
+   
+
+
+//este es el formulario creado a partir del primer importe(hooks)
+
 
 
 
 const Form = () => { 
 
-    const { register, formState: { errors }, watch, handleSubmit } = useForm({ 
+    const { register, formState: {errors}, watch, handleSubmit } = useForm({ 
         defaultValues: {
             nombre: '',
             direccion: '',
@@ -15,12 +22,19 @@ const Form = () => {
     });
 
     const onSubmit = (data) => {
-        console.log(data);
-    }
+        console.log(data);}
+        axios.post('-hcontainers-us-west-166.railway.app')
+        
+    
+
+
+    
+       
+   
 
     return <div> 
         <h1>Para contactarnos </h1> 
-        <p> {watch('nombre')}</p>
+        <p> {watch('')}</p>
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className="pin__form-img">
                 <img src={ventas} alt="ventas" />
@@ -41,6 +55,7 @@ const Form = () => {
                 <input type="password"  {...register('contraseña', {
                     required: true,
                     maxLength: 10
+                
                     
                         
                     
@@ -51,29 +66,40 @@ const Form = () => {
                 <label>Edad</label>
                 <input type="number" {...register('edad', {
                     required: true
+                 
                 })} />
             </div>
             <div className="pin__form-tres">
                 <label>Email</label>
                 <input type="text" {...register('email', {
-                    pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i
-                })} />
-                {errors.email?.type === 'pattern' && <p>El formato del email es incorrecto</p>}
+            
+                   
+                
+                
+                })}/>
+                {errors.email}
+                
+                 
+                
+                
+                
             </div>
 
            
             <div className="pin__form-cuatro">
                 <label>Nombre</label>
                 <input type="text" {...register('nombre', {
+                
                     
                 })} />
+        
+   	
                
                
             </div>
 
    
-       
-                
+        
     
            
             
