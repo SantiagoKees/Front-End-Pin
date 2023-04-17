@@ -99,7 +99,7 @@ const Features = () => {
       
       
       
-      <h2>Mas información especifica: </h2>
+     <div className="pin-inf"><h2>Mas información especifica: </h2></div> 
       <div className="pin__feature-container">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />

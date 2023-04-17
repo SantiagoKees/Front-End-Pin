@@ -83,4 +83,47 @@
     
   
   }
+  .pin-aviso{
+    color: rgb(86, 238, 26);
+  }
+@media screen and (max-width:700px){
+  .pin__form-h{
+    margin-left: 140px;
+  }
+}
   
+@media screen and (max-width:700px){
+  .pin__form-cuatro{
+    margin-left: 140px;
+
+  }
+}
+  
+@media screen and (max-width:700px){
+  .pin__form-dos{
+    margin-left: 140px;
+
+  }
+}
+
+@media screen and (max-width:700px){
+  .pin__form-tres{
+    margin-left: 140px;
+
+  }
+}
+@media screen and (max-width:700px){
+  .pin__form-img{
+    margin-left: -140px;
+
+  }
+}
+@media screen and (max-width:700px){
+  .buttom{
+    margin-left: 140px;
+
+  }
+}
+.p{
+  color: aliceblue;
+}

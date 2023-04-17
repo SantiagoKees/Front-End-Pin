@@ -74,3 +74,12 @@
         padding: 0px;
     }
 
+@media  screen and (max-width: 1200px){
+.pin__header-content{
+    margin-top: 40px;
+    margin-left: -20px;
+    
+
+}
+    
+}

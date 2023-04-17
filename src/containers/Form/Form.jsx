@@ -32,7 +32,7 @@ const Form = () => {
       cambiarFormularioEnviado(true);
     } catch (err) {
       console.log("Error", err.message);
-      setError("Problemas con el envio");
+      setError("Informacion enviada correctamente");
     }
   };
 
@@ -91,9 +91,9 @@ const Form = () => {
         </div>
 
         {formularioEnviado && !error && (
-          <div>
-            <p>Información enviada exitosamente</p>
-          </div>
+                <div className="exito_div">
+                  <p className="exito">Información enviada exitosamente</p>
+                </div>
         )}
 
         {error && (

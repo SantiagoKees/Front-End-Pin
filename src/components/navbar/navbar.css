@@ -10,7 +10,12 @@ padding: 0.49rem 39rem;
 }
 @media screen and (max-width:700px){
     .pin__navbar{
-        display: inline-block;
+        
+        margin-top: -380px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 150px;
+        margin-left: 0px;
     }
     
 }
@@ -78,9 +83,12 @@ padding: 0.49rem 39rem;
 
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 750px) {
     .pin__navbar-links_container {
         display:inline-block ;
+        margin-top: -100px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
     
@@ -126,3 +134,33 @@ padding: 0.49rem 39rem;
     
 }
 
+@media screen and (max-width: 1050px) {
+    .pin__navbar-links {
+        
+        margin-top: 380px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+}
+
+@media screen and(max-width:1060px) {
+    .pin__header-content{
+        display: flex;
+        margin-top: 30px;
+
+    }
+    
+}
+
+
+
+  @media screen and(max-width: 768px) {
+    .pin__navbar{
+        padding-left: 1rem !important;
+        flex-direction: column;
+
+    }
+  }
+
+    

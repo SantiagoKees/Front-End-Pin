@@ -76,3 +76,19 @@ h2 {
 .pin_slider-h1{
     margin-top: 130px;
 }
+@media screen and (max-width:600px){
+	.pin_slider-h1{
+		margin-left: -150px;
+	    padding-left: 30px;
+		
+	}
+}
+@media screen and (max-width:600px){
+	.slider-pin{
+		height: 500px;
+		margin-left: 20px;
+		width: -10px;
+		
+	}
+}
+	
